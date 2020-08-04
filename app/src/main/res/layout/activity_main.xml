@@ -93,13 +93,20 @@
         android:layout_height="wrap_content"
         android:enabled="false"
         android:text="마케팅 활용 동의" />
-    
-    <ImageView
-        android:layout_width="240dp"
-        android:layout_height="120dp"
-        android:src="@drawable/naeiltour_friday"
-        android:scaleType="centerCrop"
-        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/naeiltour_friday"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
