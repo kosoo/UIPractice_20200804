@@ -55,8 +55,7 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
+        android:orientation="horizontal">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,6 +84,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="마케팅 활용 동의" />
+    
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:src="@drawable/naeiltour_friday"
+        android:scaleType="centerCrop"
+        />
 
     <Button
         android:layout_width="match_parent"
